@@ -1,0 +1,65 @@
+.listbox{
+    background-color: #e2e2e2;
+    padding: 5px;
+    border-radius: 0.5rem;
+    
+}
+.listbox1{
+    width: 16rem;
+    margin-right: 10px;
+}
+.listboxcontainer{
+    display: flex;
+}
+.title{
+    padding: 4px 12px;
+    font-size: 18px;
+}
+
+.shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.alert{
+    width: 25rem;
+    height: 30vh;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    z-index: 20;
+}
+.icon3{
+    width: 60px;
+    height: 60px;
+}
+.alertbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.alertbtn > button{
+    border: none;
+    padding: 8px 26px;
+    border-radius: 2px;
+    color: white;
+    display: block;
+}
+.ugui{
+    background-color: red;
+}
+.tiim{
+    background-color: #1BDE35;
+}

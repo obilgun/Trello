@@ -1,0 +1,10 @@
+.maincontainer{
+    display: flex;
+    height: 94vh;
+    background-color: #495057;
+    padding: 1rem;
+}
+.container{
+    display: flex;
+}
+    

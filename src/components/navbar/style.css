@@ -1,0 +1,18 @@
+.navbar{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    border-bottom: 1px solid #DEE2E6;
+}
+.navbar > svg {
+    height: 2rem;
+    width: 2rem;
+    color: #0b60da;
+    margin: 0 0.5rem 0 1rem;
+}
+.logo{
+    font-family: 'Poppins', serif;
+    font-size: 1.5rem;
+    color: #525252;
+}
